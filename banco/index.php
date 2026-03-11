@@ -49,7 +49,8 @@ if (mysqli_num_rows($resultado) > 0) {
         echo "<tr> <td>" . $linha['id'] . "</td>" . 
         "<td>" . $linha['nome'] . "</td>" . 
         "<td>" . $linha['endereco'] . "</td>" .
-        "<td>" . $linha['telefone'] . "</td> </tr>";
+        "<td>" . $linha['telefone'] . "</td>" .
+        "<td> <a href='editar.php?id=" . $linha['id'] . "'> Editar </a>";
     }
 } else {    
     echo "<h3>Nenhum contato encontrado</h3>";
