@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro realizado</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header>Banco de dados</header>
+<div class="container">
+<div class="cadastro">
 <?php
 include('conexao.php');
 
@@ -42,3 +54,7 @@ if (isset($_POST['atualizar'])) {
     Telefone: <input type="text" name="telefone" value="<?php echo $contato['telefone'];?>"><br>
     <input type="submit" name="atualizar" value="Atualizar">
 </form>
+</div>
+</div>
+</body>
+</html>
