@@ -1,0 +1,35 @@
+body {
+    margin: 1rem;
+    padding: 0;
+}
+
+.preto {
+    background-color: black;
+}
+
+body#corpo.preto .botao {
+    color: aqua;
+}
+
+
+/* */
+
+.branco {
+    background-color: white;
+}
+
+.branco button {
+    color: black;
+}
+
+
+.verde {
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

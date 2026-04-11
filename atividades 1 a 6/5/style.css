@@ -1,0 +1,33 @@
+body {
+    margin: 1rem;
+    padding: 0;
+}
+
+body#corpo.quente.primavera {
+    background-color: red;
+}
+body#corpo.quente.verao {
+    background-color: orange;
+}
+body#corpo.quente.outono {
+    background-color: brown;
+}
+body#corpo.quente.inverno {
+    background-color: darkred;
+}
+
+body#corpo.frio.primavera {
+    background-color: lightgreen;
+}
+body#corpo.frio.verao {
+    background-color: lightblue;
+}
+body#corpo.frio.outono {
+    background-color: lightyellow;
+}
+body#corpo.frio.inverno {
+    background-color: lightgray;
+}
+
+
+

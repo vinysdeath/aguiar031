@@ -1,0 +1,18 @@
+Faça uma página em JS que peça ao usuário um valor de
+temperatura em graus Celsius;
+ Mostre na tela a temperatura em Celsius, em
+Fahrenheit.
+ Teste a temperatura e modifique a página de acordo
+com o seguinte:
+ FRIO – TEMA AZUL (se temperatura entre -5 e 15 graus)
+ AGRADÁVEL – TEMA VERDE (se temperatura – 16 e 25 graus)
+ CALOR – TEMA VERMELHO (se temperatura >= 26 graus)
+6) Temperatura + estação do ano
+ Use o exercício anterior e complemente.
+ Peça ao usuário para entrar com dia e o mês do ano.
+ Mostre também, qual a estação do ano e inclua uma
+imagem na página que represente a estação:
+ Verão – 21 dez a 20 mar
+ Outono – 21 mar a 20 jun
+ Inverno – 21 jun a 22 set
+ Primavera – 23 set a 21 dez
