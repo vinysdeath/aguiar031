@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 1 — Teoria: Encapsulamento</title>
+</head>
+
+<body>
+        <h2>1 O que é encapsulamento?</h2>
+
+        <p>Responda com suas próprias palavras:</p>
+
+        <p>O que significa encapsular dados em uma classe?</p>
+        <p class="resposta">Encapsular dados em uma classe significa proteger esses dados, ocultar detalhes internos e controlar o acesso a eles através de uma classe.</p>
+    
+        <p>Qual é a diferença entre um atributo public, protected e private?</p>
+        <p class="resposta">Public: acessível através de qualquer lugar do código. Protected: acessível apenas pela própria classe e suas subclasses. Private: acessível apenas pela própria classe</p>
+        <p>Por que não é boa prática deixar todos os atributos como public?</p>
+        <p class="resposta">Deixar todos os atributos públicos pode comprometer a integridade dos dados.</p>
+
+        <h2>2 Para que servem os métodos get e set?</h2>
+
+        <p>Por que usamos getAtributo() ao invés de acessar $objeto->atributo diretamente? </p>
+        <p class="resposta">Usamos getAtributo() para controlar o acesso ao atributo, porque não é possível acessar diretamente atributos private.</p>
+        <p>O que um método set pode fazer além de simplesmente atribuir um valor?</p>
+        <p class="resposta">Um método set pode validar o valor antes de atribuir, garantindo que os dados sejam consistentes e válidos.</p>
+        <p>Dê um exemplo prático de validação dentro de um set.</p>
+        <p class="resposta">Um setIdade($valor) pode verificar se $valor > 0 antes de salvar. Isso protege o objeto de receber dados invalidos.</p>
+
+        <h2>3 Verdadeiro ou Falso — encapsulamento</h2>
+
+        Teoria
+
+        Classifique cada afirmação como Verdadeiro (V) ou Falso (F) e justifique:
+
+        <p>"Um atributo private pode ser lido diretamente fora da classe." (Falso) <br> Justificativa: Acesso a atributos private só é possível dentro da própria classe.</p>
+        <p>"Getters e setters so fazem sentido quando os atributos sao private." (Verdadeiro) <br> Justificativa: São necessários para controlar o acesso a atributos private.</p>
+        <p>"Encapsulamento aumenta a seguranca e a manutencao do codigo." (Verdadeiro) <br> Justificativa: Facilita a manutenção e melhora a segurança dos dados.</p>
+        <p>"E possivel ter um getter sem ter um setter para o mesmo atributo." (Verdadeiro) <br> Justificativa: Permite ler o valor de um atributo private sem permitir que ele seja modificado externamente.</p>
+
+</body>
+
+</html>
